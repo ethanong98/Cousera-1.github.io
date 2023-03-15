@@ -4,9 +4,10 @@
         #style1{
             font-family: "Times New Roman", Times, sans-serif;
             font-weight: bold;
-            font-style: italic;
+            """font-style: italic;"""
             color: gold;
         }
+
     p{
         font-family:"Arial";
         
@@ -14,7 +15,11 @@
     .center1{
         justify-content: center;
         display: flex;
+        clear:both;
     }
+      .centertext{
+        text-align:center;
+      }
 
     #box{
         width: 1500px;
@@ -31,16 +36,20 @@
         <title style = "font-size:30px">
         XMUM
     </title>
+      
     <div class = "center1">
         <img style = "width: 75px;height:75px" src = "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Xiamen_University_logo.svg/300px-Xiamen_University_logo.svg.png" >
-    </div>
+        </div>
     </head>
 
     <body id="box">
-        
+         <div style = text-align:center>
         <h1 id = "style1">
             Hello! Welcome to the Xiamen University Malaysia website.</h1>
+         
         <p> Here you will find all information that 
             will be helpful in answering all queries related to this university!.</p>
+         
+      </div>
     </body>
 </html>
